@@ -1,0 +1,99 @@
+{
+  "Barbarian": {
+    "displayName": "Barbarian",
+    "standardSkills": [
+      "Athletics","Brawn","Endurance","First Aid","Locale","Perception","Boating","Ride"
+    ],
+    "professionalSkills": [
+      "Craft","Healing","Lore","Musicianship","Navigation","Seamanship","Survival","Track"
+    ],
+    "combatStyles": [
+      "Barbarian Fyrdman",
+      "Berserker",
+      "Horse Eater",
+      "Seaborne Reiver",
+      "Weapon Thegn",
+      "Wolf Hunter"
+    ],
+    "moneyDice": "4d6*50",
+    "socialClasses": [
+      { "name": "Thrall",     "min":  1, "max": 20, "mult": 0.5 },
+      { "name": "Clanfolk",   "min": 21, "max": 60, "mult": 1.0 },
+      { "name": "Warrior",    "min": 61, "max": 90, "mult": 1.25 },
+      { "name": "Chieftain",  "min": 91, "max":100, "mult": 2.0 }
+    ]
+  },
+  "Civilised": {
+    "displayName": "Civilised",
+    "standardSkills": [
+      "Conceal","Deceit","Drive","Influence","Insight","Locale","Willpower"
+    ],
+    "professionalSkills": [
+      "Art","Commerce","Craft","Courtesy","Language","Lore","Musicianship","Streetwise"
+    ],
+    "combatStyles": [
+      "Citizen Legionary",
+      "City‑state Phalangite",
+      "Levied Archer",
+      "Light Skirmisher",
+      "Street Thug",
+      "Town Militia"
+    ],
+    "moneyDice": "4d6*75",
+    "socialClasses": [
+      { "name": "Peasant",    "min":  1, "max":30, "mult": 0.75 },
+      { "name": "Yeoman",     "min":31, "max":60, "mult": 1.0 },
+      { "name": "Townsman",   "min":61, "max":80, "mult": 1.25 },
+      { "name": "Patrician",  "min":81, "max":95, "mult": 1.5 },
+      { "name": "Senator",    "min":96, "max":100,"mult": 2.0 }
+    ]
+  },
+  "Nomadic": {
+    "displayName": "Nomadic",
+    "standardSkills": [
+      "Endurance","First Aid","Locale","Perception","Stealth","Athletics","Boating","Swim","Drive","Ride"
+    ],
+    "professionalSkills": [
+      "Craft","Culture","Language","Lore","Musicianship","Navigation","Survival","Track"
+    ],
+    "combatStyles": [
+      "Camel Cavalry",
+      "Feathered Death Flinger",
+      "Horse Lord",
+      "Whale Hunter",
+      "Wheeled Warrior",
+      "Wolf Runner"
+    ],
+    "moneyDice": "4d6*25",
+    "socialClasses": [
+      { "name": "Rider",      "min":  1, "max":25, "mult": 0.75 },
+      { "name": "Nomad",      "min":26, "max":60, "mult": 1.0 },
+      { "name": "Clan Leader","min":61, "max":85, "mult": 1.5 },
+      { "name": "Khan",       "min":86, "max":100,"mult": 2.0 }
+    ]
+  },
+  "Primitive": {
+    "displayName": "Primitive",
+    "standardSkills": [
+      "Brawn","Endurance","Evade","Locale","Perception","Stealth","Athletics","Boating","Swim"
+    ],
+    "professionalSkills": [
+      "Craft","Healing","Lore","Musicianship","Navigation","Survival","Track"
+    ],
+    "combatStyles": [
+      "Flint Death Dealer",
+      "Ghost Warrior",
+      "Head Hunter",
+      "Jaguar Brother",
+      "Jungle Savage",
+      "Savannah Hunter"
+    ],
+    "moneyDice": "4d6*10",
+    "socialClasses": [
+      { "name": "Gatherer",   "min":  1, "max":40, "mult": 0.5 },
+      { "name": "Hunter",     "min":41, "max":70, "mult": 1.0 },
+      { "name": "Shaman",     "min":71, "max":90, "mult": 1.5 },
+      { "name": "Chief",      "min":91, "max":100,"mult": 2.0 }
+    ]
+  }
+}
