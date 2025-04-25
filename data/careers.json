@@ -1,0 +1,146 @@
+{
+  "agent": {
+    "name": "Agent",
+    "displayName": "Agent",
+    "standardSkills": ["Conceal","Deceit","Evade","Insight","Perception","Stealth"],
+    "professionalSkills": ["Culture (any)","Disguise","Language (any)","Sleight","Streetwise","Survival","Track"]
+  },
+  "alchemist": {
+    "name": "Alchemist",
+    "displayName": "Alchemist",
+    "standardSkills": ["Customs","Endurance","First Aid","Insight","Locale","Perception","Willpower"],
+    "professionalSkills": ["Commerce","Craft (Alchemy)","Healing","Language (any)","Literacy","Lore (Specific Alchemical Speciality)","Streetwise"]
+  },
+  "beastHandler": {
+    "name": "Beast Handler",
+    "displayName": "Beast Handler",
+    "standardSkills": ["Drive","Endurance","First Aid","Influence","Locale","Ride","Willpower"],
+    "professionalSkills": ["Commerce","Craft (Animal Husbandry)","Healing (Specific Species)","Lore (Specific Species)","Survival","Teach (Specific Species)","Track"]
+  },
+  "courtesan": {
+    "name": "Courtesan",
+    "displayName": "Courtesan",
+    "standardSkills": ["Customs","Dance","Deceit","Influence","Insight","Perception","Sing"],
+    "professionalSkills": ["Art (any)","Courtesy","Culture (any)","Gambling","Language (any)","Musicianship","Seduction"]
+  },
+  "courtier": {
+    "name": "Courtier",
+    "displayName": "Courtier",
+    "standardSkills": ["Customs","Dance","Deceit","Influence","Insight","Locale","Perception"],
+    "professionalSkills": ["Art (any)","Bureaucracy","Courtesy","Culture (any)","Language (any)","Lore (any)","Oratory"]
+  },
+  "crafter": {
+    "name": "Crafter",
+    "displayName": "Crafter",
+    "standardSkills": ["Brawn","Drive","Influence","Insight","Locale","Perception","Willpower"],
+    "professionalSkills": ["Art (any)","Commerce","Craft (Primary)","Craft (Secondary)","Engineering","Mechanisms","Streetwise"]
+  },
+  "entertainer": {
+    "name": "Entertainer",
+    "displayName": "Entertainer",
+    "standardSkills": ["Athletics","Brawn","Dance","Deceit","Influence","Insight","Sing"],
+    "professionalSkills": ["Acrobatics","Acting","Oratory","Musicianship","Seduction","Sleight","Streetwise"]
+  },
+  "farmer": {
+    "name": "Farmer",
+    "displayName": "Farmer",
+    "standardSkills": ["Athletics","Brawn","Drive","Endurance","Locale","Perception","Ride"],
+    "professionalSkills": ["Commerce","Craft (any)","Lore (Agriculture)","Lore (Animal Husbandry)","Navigation","Survival","Track"]
+  },
+  "fisher": {
+    "name": "Fisher",
+    "displayName": "Fisher",
+    "standardSkills": ["Athletics","Boating","Endurance","Locale","Perception","Stealth","Swim"],
+    "professionalSkills": ["Commerce","Craft (any)","Lore (Primary Catch)","Lore (Secondary Catch)","Navigation","Seamanship","Survival"]
+  },
+  "herder": {
+    "name": "Herder",
+    "displayName": "Herder",
+    "standardSkills": ["Endurance","First Aid","Insight","Locale","Perception","Ride"],
+    "professionalSkills": ["Commerce","Craft (Animal Husbandry)","Healing (Specific Species)","Navigation","Musicianship","Survival","Track"]
+  },
+  "hunter": {
+    "name": "Hunter",
+    "displayName": "Hunter",
+    "standardSkills": ["Athletics","Endurance","Locale","Perception","Ride","Stealth"],
+    "professionalSkills": ["Commerce","Craft (Hunting Related)","Lore (Regional or Specific Species)","Mechanisms","Navigation","Survival","Track"]
+  },
+  "merchant": {
+    "name": "Merchant",
+    "displayName": "Merchant",
+    "standardSkills": ["Boating","Drive","Deceit","Insight","Influence","Locale","Ride"],
+    "professionalSkills": ["Courtesy","Culture (any)","Language (any)","Navigation","Seamanship","Streetwise"]
+  },
+  "miner": {
+    "name": "Miner",
+    "displayName": "Miner",
+    "standardSkills": ["Athletics","Brawn","Endurance","Locale","Perception","Sing","Willpower"],
+    "professionalSkills": ["Commerce","Craft (Mining)","Engineering","Lore (Minerals)","Mechanisms","Navigation (Underground)","Survival"]
+  },
+  "mystic": {
+    "name": "Mystic",
+    "displayName": "Mystic",
+    "standardSkills": ["Athletics","Endurance","Evade","Insight","Perception","Willpower"],
+    "professionalSkills": ["Art (any)","Folk Magic","Literacy","Lore (any)","Meditation","Musicianship","Mysticism"]
+  },
+  "official": {
+    "name": "Official",
+    "displayName": "Official",
+    "standardSkills": ["Customs","Deceit","Influence","Insight","Locale","Perception","Willpower"],
+    "professionalSkills": ["Bureaucracy","Commerce","Courtesy","Language (any)","Literacy","Lore (any)","Oratory"]
+  },
+  "physician": {
+    "name": "Physician",
+    "displayName": "Physician",
+    "standardSkills": ["Dance","First Aid","Influence","Insight","Locale","Sing","Willpower"],
+    "professionalSkills": ["Commerce","Craft (Specific Physiological Speciality)","Healing","Language (any)","Literacy","Lore (Specific Alchemical Speciality)","Streetwise"]
+  },
+  "priest": {
+    "name": "Priest",
+    "displayName": "Priest",
+    "standardSkills": ["Customs","Dance","Deceit","Influence","Insight","Locale","Willpower"],
+    "professionalSkills": ["Bureaucracy","Devotion (Pantheon, Cult or God)","Exhort","Folk Magic","Literacy","Lore (any)","Oratory"]
+  },
+  "sailor": {
+    "name": "Sailor",
+    "displayName": "Sailor",
+    "standardSkills": ["Athletics","Boating","Brawn","Endurance","Locale","Swim"],
+    "professionalSkills": ["Craft (Specific Shipboard Speciality)","Culture (any)","Language (any)","Lore (any)","Navigate","Seamanship","Survival"]
+  },
+  "scholar": {
+    "name": "Scholar",
+    "displayName": "Scholar",
+    "standardSkills": ["Customs","Influence","Insight","Locale","Native Tongue","Perception","Willpower"],
+    "professionalSkills": ["Culture (any)","Language (any)","Literacy","Lore (Primary)","Lore (Secondary)","Oratory","Teach"]
+  },
+  "scout": {
+    "name": "Scout",
+    "displayName": "Scout",
+    "standardSkills": ["Athletics","Endurance","First Aid","Perception","Stealth","Swim"],
+    "professionalSkills": ["Culture (any)","Healing","Language (any)","Lore (any)","Navigation","Survival","Track"]
+  },
+  "shaman": {
+    "name": "Shaman",
+    "displayName": "Shaman",
+    "standardSkills": ["Customs","Dance","Deceit","Influence","Insight","Locale","Willpower"],
+    "professionalSkills": ["Binding (Cult, Totem or Tradition)","Folk Magic","Healing","Lore (any)","Oratory","Sleight","Trance"]
+  },
+  "sorcerer": {
+    "name": "Sorcerer",
+    "displayName": "Sorcerer",
+    "standardSkills": ["Customs","Deceit","Influence","Insight","Locale","Perception","Willpower"],
+    "professionalSkills": ["Folk Magic","Invocation (Cult, School or Grimoire)","Language (any)","Literacy","Lore (any)","Shaping","Sleight"]
+  },
+  "thief": {
+    "name": "Thief",
+    "displayName": "Thief",
+    "standardSkills": ["Athletics","Deceit","Evade","Insight","Perception","Stealth"],
+    "professionalSkills": ["Acting","Commerce","Disguise","Lockpicking","Mechanisms","Sleight","Streetwise"]
+  },
+  "warrior": {
+    "name": "Warrior",
+    "displayName": "Warrior",
+    "standardSkills": ["Athletics","Brawn","Endurance","Evade","Unarmed"],
+    "professionalSkills": ["Craft (any)","Engineering","Gambling","Lore (Military History)","Lore (Strategy and Tactics)","Oratory","Survival"]
+  }
+}
