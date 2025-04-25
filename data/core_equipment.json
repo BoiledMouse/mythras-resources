@@ -1,0 +1,1365 @@
+{
+  "Armor": [
+    {
+      "name": "Natural/Cured Furs",
+      "armor_points": 1,
+      "encumbrance": 2,
+      "cost_per_location": "20 SP",
+      "penalty": 3,
+      "milieu": "Any",
+      "notes": "Example: Hides"
+    },
+    {
+      "name": "Padded/Quilted Aketon",
+      "armor_points": 2,
+      "encumbrance": 1,
+      "cost_per_location": "80 SP",
+      "penalty": 2,
+      "milieu": "Any",
+      "notes": "Example: Gambeson"
+    },
+    {
+      "name": "Flexible Laminated Linothorax",
+      "armor_points": 3,
+      "encumbrance": 2,
+      "cost_per_location": "180 SP",
+      "penalty": 3,
+      "milieu": "A-M",
+      "notes": "Example: Bezainted"
+    },
+    {
+      "name": "Scaled Brigandine",
+      "armor_points": 4,
+      "encumbrance": 3,
+      "cost_per_location": "320 SP",
+      "penalty": 5,
+      "milieu": "A-R",
+      "notes": "Example: Lamellar"
+    },
+    {
+      "name": "Half Plate",
+      "armor_points": 5,
+      "encumbrance": 4,
+      "cost_per_location": "500 SP",
+      "penalty": 6,
+      "milieu": "A-R",
+      "notes": "Example: Hoplite Plate"
+    },
+    {
+      "name": "Mail",
+      "armor_points": 6,
+      "encumbrance": 5,
+      "cost_per_location": "900 SP",
+      "penalty": 7,
+      "milieu": "A-R",
+      "notes": "Example: Hauberk, Laminar"
+    },
+    {
+      "name": "Rigid Plated Mail",
+      "armor_points": 7,
+      "encumbrance": 6,
+      "cost_per_location": "1400 SP",
+      "penalty": 8,
+      "milieu": "M-E",
+      "notes": "Example: Splinted Chainmail"
+    },
+    {
+      "name": "Articulated Plate",
+      "armor_points": 8,
+      "encumbrance": 7,
+      "cost_per_location": "2400 SP",
+      "penalty": 10,
+      "milieu": "M-E",
+      "notes": "Example: Gothic Plate"
+    }
+  ],
+  "Shields": [
+    {
+      "name": "Buckler",
+      "damage": "1d3",
+      "size": "M",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 1,
+      "hp": 9,
+      "ap": 6,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "M-E",
+      "cost": "50 SP",
+      "blocks": 2
+    },
+    {
+      "name": "Heater",
+      "damage": "1d4",
+      "size": "L",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 2,
+      "hp": 12,
+      "ap": 6,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "M",
+      "cost": "150 SP",
+      "blocks": 3
+    },
+    {
+      "name": "Hoplite",
+      "damage": "1d4",
+      "size": "H",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 3,
+      "hp": 15,
+      "ap": 6,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "A-M",
+      "cost": "300 SP",
+      "blocks": 4
+    },
+    {
+      "name": "Kite",
+      "damage": "1d4",
+      "size": "H",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 3,
+      "hp": 15,
+      "ap": 4,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "M",
+      "cost": "300 SP",
+      "blocks": 4
+    },
+    {
+      "name": "Peltast",
+      "damage": "1d4",
+      "size": "L",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 2,
+      "hp": 12,
+      "ap": 4,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "A-M",
+      "cost": "150 SP",
+      "blocks": 3
+    },
+    {
+      "name": "Scutum",
+      "damage": "1d4",
+      "size": "H",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 4,
+      "hp": 18,
+      "ap": 4,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "A-M",
+      "cost": "450 SP",
+      "blocks": 5
+    },
+    {
+      "name": "Target",
+      "damage": "1d3+1",
+      "size": "L",
+      "reach": "S",
+      "combat_effects": "Bash, Impale",
+      "encumbrance": 2,
+      "hp": 9,
+      "ap": 4,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "A-E",
+      "cost": "150 SP",
+      "blocks": 3
+    },
+    {
+      "name": "Viking",
+      "damage": "1d4",
+      "size": "L",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 3,
+      "hp": 12,
+      "ap": 4,
+      "traits": "Ranged Parry, Passive",
+      "milieu": "M",
+      "cost": "300 SP",
+      "blocks": 4
+    }
+  ],
+  "Melee Weapons": [
+    {
+      "name": "Ball & chain",
+      "damage": "1d6+1",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bash, Entangle, Stun",
+      "encumbrance": 2,
+      "hp": 8,
+      "ap": 6,
+      "milieu": "M",
+      "cost": "250 SP",
+      "traits": "Flexible"
+    },
+    {
+      "name": "Battleaxe (one-handed)",
+      "damage": "1d6+1",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bleed",
+      "encumbrance": 1,
+      "hp": 8,
+      "ap": 4,
+      "milieu": "A-R",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Battleaxe (two-handed)",
+      "damage": "1d8+1",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bleed, Sunder",
+      "encumbrance": 1,
+      "hp": 8,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Broadsword",
+      "damage": "1d8",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bleed, Impale",
+      "encumbrance": 2,
+      "hp": 10,
+      "ap": 6,
+      "milieu": "M-E",
+      "cost": "175 SP"
+    },
+    {
+      "name": "Chain",
+      "damage": "1d4",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Entangle",
+      "encumbrance": 1,
+      "hp": 6,
+      "ap": 8,
+      "milieu": "A-I",
+      "cost": "10 SP"
+    },
+    {
+      "name": "Club",
+      "damage": "1d6",
+      "size": "M",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 1,
+      "hp": 4,
+      "ap": 4,
+      "milieu": "All",
+      "cost": "5 SP"
+    },
+    {
+      "name": "Dagger",
+      "damage": "1d4+1",
+      "size": "S",
+      "reach": "S",
+      "combat_effects": "Bleed, Impale",
+      "encumbrance": 0,
+      "hp": 8,
+      "ap": 6,
+      "milieu": "All",
+      "cost": "30 SP",
+      "traits": "Thrown"
+    },
+    {
+      "name": "Falchion",
+      "damage": "1d6+2",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bleed",
+      "encumbrance": 1,
+      "hp": 10,
+      "ap": 6,
+      "milieu": "A-M",
+      "cost": "200 SP"
+    },
+    {
+      "name": "Flail",
+      "damage": "1d6",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bash",
+      "encumbrance": 1,
+      "hp": 6,
+      "ap": 3,
+      "milieu": "A-M",
+      "cost": "25 SP",
+      "traits": "Flexible"
+    },
+    {
+      "name": "Garrotte",
+      "damage": "1d2",
+      "size": "S",
+      "reach": "T",
+      "combat_effects": "",
+      "encumbrance": 0,
+      "hp": 2,
+      "ap": 1,
+      "milieu": "A-I",
+      "cost": "15 SP",
+      "traits": "Stealth"
+    },
+    {
+      "name": "Glaive/Rhomphaia",
+      "damage": "1d10+2",
+      "size": "L",
+      "reach": "L",
+      "combat_effects": "Bleed, Sunder",
+      "encumbrance": 2,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "250 SP"
+    },
+    {
+      "name": "Great axe",
+      "damage": "2d6+2",
+      "size": "H",
+      "reach": "L",
+      "combat_effects": "Bleed, Sunder",
+      "encumbrance": 2,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "125 SP"
+    },
+    {
+      "name": "Great club",
+      "damage": "2d6",
+      "size": "H",
+      "reach": "L",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 3,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "All",
+      "cost": "50 SP"
+    },
+    {
+      "name": "Great hammer",
+      "damage": "1d10+3",
+      "size": "H",
+      "reach": "L",
+      "combat_effects": "Bash, Stun Location, Sunder",
+      "encumbrance": 3,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "M-E",
+      "cost": "250 SP"
+    },
+    {
+      "name": "Greatsword",
+      "damage": "2d8",
+      "size": "H",
+      "reach": "L",
+      "combat_effects": "Bleed, Impale, Sunder",
+      "encumbrance": 4,
+      "hp": 12,
+      "ap": 6,
+      "milieu": "M-E",
+      "cost": "300 SP"
+    },
+    {
+      "name": "Halberd/Poleaxe",
+      "damage": "1d8+2",
+      "size": "L",
+      "reach": "VL",
+      "combat_effects": "Entangle, Impale, Sunder",
+      "encumbrance": 4,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "A-E",
+      "cost": "200 SP",
+      "traits": "Set"
+    },
+    {
+      "name": "Hatchet",
+      "damage": "1d6",
+      "size": "S",
+      "reach": "S",
+      "combat_effects": "Bleed",
+      "encumbrance": 1,
+      "hp": 6,
+      "ap": 3,
+      "milieu": "All",
+      "cost": "25 SP",
+      "traits": "Thrown"
+    },
+    {
+      "name": "Knife",
+      "damage": "1d3",
+      "size": "S",
+      "reach": "S",
+      "combat_effects": "Bleed, Impale",
+      "encumbrance": 0,
+      "hp": 4,
+      "ap": 5,
+      "milieu": "All",
+      "cost": "10 SP"
+    },
+    {
+      "name": "Lance",
+      "damage": "1d10+2",
+      "size": "H",
+      "reach": "VL",
+      "combat_effects": "Impale, Sunder",
+      "encumbrance": 3,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "150 SP",
+      "traits": "Mount"
+    },
+    {
+      "name": "Longspear",
+      "damage": "1d10+1",
+      "size": "L",
+      "reach": "VL",
+      "combat_effects": "Impale",
+      "encumbrance": 2,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "All",
+      "cost": "30 SP",
+      "traits": "Set"
+    },
+    {
+      "name": "Longsword (one-handed)",
+      "damage": "1d8",
+      "size": "M",
+      "reach": "L",
+      "combat_effects": "Bleed, Impale",
+      "encumbrance": 2,
+      "hp": 12,
+      "ap": 6,
+      "milieu": "M-R",
+      "cost": "250 SP"
+    },
+    {
+      "name": "Longsword (two-handed)",
+      "damage": "1d10",
+      "size": "L",
+      "reach": "L",
+      "combat_effects": "Bleed, Impale, Sunder",
+      "encumbrance": 2,
+      "hp": 12,
+      "ap": 6,
+      "milieu": "M-E",
+      "cost": "250 SP"
+    },
+    {
+      "name": "Mace",
+      "damage": "1d8",
+      "size": "M",
+      "reach": "S",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 1,
+      "hp": 6,
+      "ap": 6,
+      "milieu": "A-R",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Main Gauche",
+      "damage": "1d4",
+      "size": "S",
+      "reach": "S",
+      "combat_effects": "Bleed",
+      "encumbrance": 0,
+      "hp": 10,
+      "ap": 6,
+      "milieu": "M-E",
+      "cost": "180 SP",
+      "traits": "Entrapping"
+    },
+    {
+      "name": "Military flail",
+      "damage": "1d10",
+      "size": "L",
+      "reach": "L",
+      "combat_effects": "Bash, Stun Location",
+      "encumbrance": 3,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "250 SP",
+      "traits": "Flexible"
+    },
+    {
+      "name": "Military pick",
+      "damage": "1d6+1",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Stun Location, Sunder",
+      "encumbrance": 3,
+      "hp": 10,
+      "ap": 6,
+      "milieu": "M-E",
+      "cost": "180 SP"
+    },
+    {
+      "name": "Pike/Sarissa",
+      "damage": "1d10+2",
+      "size": "L",
+      "reach": "VL",
+      "combat_effects": "Impale",
+      "encumbrance": 4,
+      "hp": 12,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "90 SP",
+      "traits": "Set"
+    },
+    {
+      "name": "Quarterstaff",
+      "damage": "1d8",
+      "size": "M",
+      "reach": "L",
+      "combat_effects": "Stun Location",
+      "encumbrance": 2,
+      "hp": 8,
+      "ap": 4,
+      "milieu": "All",
+      "cost": "20 SP"
+    },
+    {
+      "name": "Rapier",
+      "damage": "1d8",
+      "size": "M",
+      "reach": "L",
+      "combat_effects": "Impale",
+      "encumbrance": 1,
+      "hp": 8,
+      "ap": 5,
+      "milieu": "E",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Sabre",
+      "damage": "1d6+1",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bleed, Impale",
+      "encumbrance": 1,
+      "hp": 8,
+      "ap": 6,
+      "milieu": "E-I",
+      "cost": "225 SP"
+    },
+    {
+      "name": "Scimitar",
+      "damage": "1d8",
+      "size": "M",
+      "reach": "M",
+      "combat_effects": "Bleed",
+      "encumbrance": 2,
+      "hp": 10,
+      "ap": 6,
+      "milieu": "M-E",
+      "cost": "200 SP"
+    },
+    {
+      "name": "Shortspear",
+      "damage": "1d8+1",
+      "size": "M",
+      "reach": "L",
+      "combat_effects": "Impale",
+      "encumbrance": 2,
+      "hp": 5,
+      "ap": 4,
+      "milieu": "All",
+      "cost": "20 SP",
+      "traits": "Set"
+    },
+    {
+      "name": "Shortsword",
+      "damage": "1d6",
+      "size": "M",
+      "reach": "S",
+      "combat_effects": "Bleed, Impale",
+      "encumbrance": 1,
+      "hp": 8,
+      "ap": 6,
+      "milieu": "All",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Trident",
+      "damage": "1d8",
+      "size": "M",
+      "reach": "L",
+      "combat_effects": "Impale",
+      "encumbrance": 2,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "155 SP",
+      "traits": "Barbed"
+    },
+    {
+      "name": "Xyston",
+      "damage": "1d10",
+      "size": "L",
+      "reach": "VL",
+      "combat_effects": "Impale",
+      "encumbrance": 3,
+      "hp": 10,
+      "ap": 4,
+      "milieu": "A",
+      "cost": "100 SP",
+      "traits": "Set, Double Ended"
+    }
+  ],
+  "Ranged Weapons": [
+    {
+      "name": "Atlatl",
+      "damage": null,
+      "strength_mod": null,
+      "size": null,
+      "range": "+0/+10/+20",
+      "encumbrance": 1,
+      "hp": 4,
+      "ap": 1,
+      "milieu": "P",
+      "cost": "10 SP",
+      "notes": "Adds +1 step to damage and +0/+10/+20 to range of thrown spear."
+    },
+    {
+      "name": "Blowgun",
+      "damage": null,
+      "strength_mod": "N",
+      "size": null,
+      "range": "10/20/30",
+      "encumbrance": 0,
+      "hp": 4,
+      "ap": 1,
+      "milieu": "P",
+      "cost": "30 SP",
+      "combat_effects": "Impale",
+      "load": 2
+    },
+    {
+      "name": "Bolas",
+      "damage": "1d4",
+      "strength_mod": "N",
+      "size": null,
+      "range": "10/25/50",
+      "encumbrance": 0,
+      "hp": 2,
+      "ap": 2,
+      "milieu": "P-A",
+      "cost": "10 SP",
+      "combat_effects": "Entangle"
+    },
+    {
+      "name": "Dart",
+      "damage": "1d4",
+      "strength_mod": "Y",
+      "size": "S",
+      "range": "5/10/20",
+      "encumbrance": 0,
+      "hp": 1,
+      "ap": 2,
+      "milieu": "P-A",
+      "cost": "10 SP",
+      "combat_effects": "Impale"
+    },
+    {
+      "name": "Discus",
+      "damage": "1d4+1",
+      "strength_mod": "Y",
+      "size": "L",
+      "range": "5/20/40",
+      "encumbrance": 0,
+      "hp": 3,
+      "ap": 2,
+      "milieu": "A",
+      "cost": "30 SP",
+      "combat_effects": "Stun Location"
+    },
+    {
+      "name": "Heavy crossbow",
+      "damage": "1d10",
+      "strength_mod": "N",
+      "size": "H",
+      "range": "20/150/300",
+      "encumbrance": 2,
+      "hp": 8,
+      "ap": 4,
+      "milieu": "M-E",
+      "cost": "350 SP",
+      "combat_effects": "Impale",
+      "load": 4
+    },
+    {
+      "name": "Javelin",
+      "damage": "1d8+1",
+      "strength_mod": "Y",
+      "size": "H",
+      "range": "10/20/50",
+      "encumbrance": 1,
+      "hp": 8,
+      "ap": 3,
+      "milieu": "A-M",
+      "cost": "20 SP",
+      "combat_effects": "Impale, Pin Weapon"
+    },
+    {
+      "name": "Light crossbow",
+      "damage": "1d8",
+      "strength_mod": "N",
+      "size": "L",
+      "range": "20/100/200",
+      "encumbrance": 1,
+      "hp": 5,
+      "ap": 4,
+      "milieu": "M-E",
+      "cost": "150 SP",
+      "combat_effects": "Impale",
+      "load": 3
+    },
+    {
+      "name": "Long bow",
+      "damage": "1d8",
+      "strength_mod": "Y",
+      "size": "H",
+      "range": "15/125/250",
+      "encumbrance": 1,
+      "hp": 7,
+      "ap": 4,
+      "milieu": "M",
+      "cost": "200 SP",
+      "combat_effects": "Impale",
+      "load": 2
+    },
+    {
+      "name": "Recurve bow",
+      "damage": "1d8",
+      "strength_mod": "Y",
+      "size": "H",
+      "range": "15/125/250",
+      "encumbrance": 1,
+      "hp": 8,
+      "ap": 4,
+      "milieu": "A-M",
+      "cost": "225 SP",
+      "combat_effects": "Impale",
+      "load": 2
+    },
+    {
+      "name": "Short bow",
+      "damage": "1d6",
+      "strength_mod": "Y",
+      "size": "L",
+      "range": "15/100/200",
+      "encumbrance": 1,
+      "hp": 4,
+      "ap": 4,
+      "milieu": "P-M",
+      "cost": "75 SP",
+      "combat_effects": "Impale",
+      "load": 2
+    },
+    {
+      "name": "Sling",
+      "damage": "1d8",
+      "strength_mod": "N",
+      "size": "L",
+      "range": "10/150/300",
+      "encumbrance": 0,
+      "hp": 2,
+      "ap": 1,
+      "milieu": "P-M",
+      "cost": "5 SP",
+      "combat_effects": "Stun Location",
+      "load": 3
+    },
+    {
+      "name": "Staff sling",
+      "damage": "2d6",
+      "strength_mod": "N",
+      "size": "L",
+      "range": "5/10/20",
+      "encumbrance": 0,
+      "hp": 6,
+      "ap": 3,
+      "milieu": "A-M",
+      "cost": "20 SP",
+      "combat_effects": "Stun Location",
+      "load": 4
+    }
+  ],
+  "Ammunition": [
+    {
+      "name": "Arrows (dozen)",
+      "cost": "4 SP"
+    },
+    {
+      "name": "Quarrels (dozen)",
+      "cost": "3 SP"
+    },
+    {
+      "name": "Lead sling bullets (20)",
+      "cost": "1 SP"
+    },
+    {
+      "name": "Blowgun darts (6)",
+      "cost": "2 SP"
+    },
+    {
+      "name": "Thrown darts (dozen)",
+      "cost": "2 SP"
+    }
+  ],
+  "Tools": [
+    {
+      "name": "Abacus",
+      "encumbrance": 1,
+      "cost": "8 SP"
+    },
+    {
+      "name": "Astrolabe",
+      "encumbrance": 1,
+      "cost": "200 SP",
+      "notes": "Ancient onwards"
+    },
+    {
+      "name": "Backpack/Satchel",
+      "encumbrance": 1,
+      "cost": "5 SP",
+      "notes": "holds up to 20 ENC"
+    },
+    {
+      "name": "Bedroll",
+      "encumbrance": 1,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Bit & Bridle",
+      "encumbrance": 1,
+      "cost": "15 SP"
+    },
+    {
+      "name": "Block & tackle",
+      "encumbrance": 1,
+      "cost": "15 SP"
+    },
+    {
+      "name": "Bottle, glass/earthenware",
+      "encumbrance": 0,
+      "cost": "2 SP"
+    },
+    {
+      "name": "Candle, 6 hour",
+      "encumbrance": 1,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Chain, 2m",
+      "encumbrance": 2,
+      "cost": "40 SP"
+    },
+    {
+      "name": "Chest, Large",
+      "encumbrance": 5,
+      "cost": "80 SP",
+      "notes": "holds up to 100 ENC"
+    },
+    {
+      "name": "Chest, Small",
+      "encumbrance": 3,
+      "cost": "40 SP",
+      "notes": "holds up to 50 ENC"
+    },
+    {
+      "name": "Cooking Pot",
+      "encumbrance": 2,
+      "cost": "3 SP",
+      "notes": "for travel"
+    },
+    {
+      "name": "Craft tools",
+      "encumbrance": 2,
+      "cost": "75 SP",
+      "notes": "basic, for one handicraft"
+    },
+    {
+      "name": "Crop (riding)",
+      "encumbrance": 0,
+      "cost": "15 SP"
+    },
+    {
+      "name": "Crowbar",
+      "encumbrance": 1,
+      "cost": "25 SP"
+    },
+    {
+      "name": "Doorjamb",
+      "encumbrance": 2,
+      "cost": "5 SP"
+    },
+    {
+      "name": "Driver’s whip",
+      "encumbrance": 0,
+      "cost": "25 SP"
+    },
+    {
+      "name": "Falconer’s Kit",
+      "encumbrance": 1,
+      "cost": "30 SP"
+    },
+    {
+      "name": "Feed or mount rations",
+      "encumbrance": 1,
+      "cost": "5 CP",
+      "notes": "per day"
+    },
+    {
+      "name": "Fine wine goblet",
+      "encumbrance": 0,
+      "cost": "8 SP",
+      "notes": "glass – double for silver"
+    },
+    {
+      "name": "First aid kit",
+      "encumbrance": 0,
+      "cost": "25 SP",
+      "notes": "10 uses"
+    },
+    {
+      "name": "Fish hooks",
+      "encumbrance": 0,
+      "cost": "1 SP",
+      "notes": "20"
+    },
+    {
+      "name": "Fishing kit",
+      "encumbrance": 1,
+      "cost": "15 SP"
+    },
+    {
+      "name": "Fishing Net",
+      "encumbrance": 4,
+      "cost": "10 SP"
+    },
+    {
+      "name": "Flint & tinder",
+      "encumbrance": 0,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Game snares and traps",
+      "encumbrance": 1,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Goad",
+      "encumbrance": 1,
+      "cost": "25 SP"
+    },
+    {
+      "name": "Grappling hook",
+      "encumbrance": 0,
+      "cost": "5 SP"
+    },
+    {
+      "name": "Hammer/Saw/Mallet/Chisel",
+      "encumbrance": 1,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Healer’s kit",
+      "encumbrance": 1,
+      "cost": "150 SP",
+      "notes": "10 uses"
+    },
+    {
+      "name": "Hourglass",
+      "encumbrance": 1,
+      "cost": "20 SP",
+      "notes": "Ancient onwards"
+    },
+    {
+      "name": "Knife (tool, not weapon)",
+      "encumbrance": 0,
+      "cost": "5 SP"
+    },
+    {
+      "name": "Ladder, rope 3m",
+      "encumbrance": 4,
+      "cost": "2 SP"
+    },
+    {
+      "name": "Lantern, basic",
+      "encumbrance": 1,
+      "cost": "10 SP"
+    },
+    {
+      "name": "Lock picks",
+      "encumbrance": 0,
+      "cost": "75 SP"
+    },
+    {
+      "name": "Lockbox",
+      "cost": "50 SP (est.)",
+      "notes": "Sturdy small chest or strongbox"
+    },
+    {
+      "name": "Lodestone",
+      "encumbrance": 0,
+      "cost": "5 SP"
+    },
+    {
+      "name": "Milling stone",
+      "encumbrance": 2,
+      "cost": "8 SP"
+    },
+    {
+      "name": "Mirror (hand glass)",
+      "encumbrance": 1,
+      "cost": "12 SP"
+    },
+    {
+      "name": "Mug/Beaker/Dish/Plate",
+      "encumbrance": 0,
+      "cost": "5 CP",
+      "notes": "wood – double price for metal"
+    },
+    {
+      "name": "Musical instrument",
+      "encumbrance": 2,
+      "cost": "70 SP"
+    },
+    {
+      "name": "Nails or tacks",
+      "encumbrance": 0,
+      "cost": "2 CP",
+      "notes": "per 50 pieces"
+    },
+    {
+      "name": "Oil flask",
+      "encumbrance": 1,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Papyrus or paper sheet",
+      "encumbrance": 0,
+      "cost": "5 CP",
+      "notes": "vellum costs double"
+    },
+    {
+      "name": "Pickaxe",
+      "encumbrance": 1,
+      "cost": "35 SP"
+    },
+    {
+      "name": "Pole, 3m",
+      "encumbrance": 1,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Quills and ink for writing",
+      "encumbrance": 1,
+      "cost": "30 SP"
+    },
+    {
+      "name": "Quiver",
+      "encumbrance": 0,
+      "cost": "2 SP"
+    },
+    {
+      "name": "Razor, folding",
+      "encumbrance": 0,
+      "cost": "3 SP"
+    },
+    {
+      "name": "Rope (hemp), 10m",
+      "encumbrance": 2,
+      "cost": "10 SP"
+    },
+    {
+      "name": "Sack, large",
+      "encumbrance": 1,
+      "cost": "5 CP",
+      "notes": "holds up to 60 ENC"
+    },
+    {
+      "name": "Sack, small",
+      "encumbrance": 0,
+      "cost": "2 CP",
+      "notes": "holds up to 30 ENC"
+    },
+    {
+      "name": "Saddle, riding",
+      "encumbrance": 3,
+      "cost": "60 SP"
+    },
+    {
+      "name": "Saddle, war",
+      "encumbrance": 4,
+      "cost": "90 SP"
+    },
+    {
+      "name": "Saddlebag",
+      "encumbrance": 2,
+      "cost": "20 SP",
+      "notes": "holds up to 2×20 ENC"
+    },
+    {
+      "name": "Saw, hand",
+      "encumbrance": 1,
+      "cost": "1 SP"
+    },
+    {
+      "name": "Scythe/Sickle",
+      "encumbrance": 2,
+      "cost": "30 SP"
+    },
+    {
+      "name": "Sextant",
+      "encumbrance": 1,
+      "cost": "25 SP",
+      "notes": "Renaissance onwards"
+    },
+    {
+      "name": "Ship’s Compass",
+      "encumbrance": 1,
+      "cost": "70 SP",
+      "notes": "Medieval onwards"
+    },
+    {
+      "name": "Shoes, horse",
+      "encumbrance": 1,
+      "cost": "10 SP",
+      "notes": "set"
+    },
+    {
+      "name": "Spade/Hoe/Pitchfork",
+      "encumbrance": 1,
+      "cost": "25 SP"
+    },
+    {
+      "name": "Torch, 1 hour",
+      "encumbrance": 0,
+      "cost": "4 CP"
+    },
+    {
+      "name": "Torch, 6 hour",
+      "encumbrance": 1,
+      "cost": "8 CP"
+    },
+    {
+      "name": "Waterskin or Canteen",
+      "encumbrance": 1,
+      "cost": "5 CP",
+      "notes": "2 litres"
+    },
+    {
+      "name": "Wax, block",
+      "encumbrance": 1,
+      "cost": "2 CP"
+    }
+  ],
+  "Clothing": [
+    {
+      "name": "Boots",
+      "cost": {
+        "cheap": "25 CP",
+        "reasonable": "50 CP",
+        "superior": "100 CP"
+      }
+    },
+    {
+      "name": "Cap or Hat",
+      "cost": {
+        "cheap": "3 CP",
+        "reasonable": "6 CP",
+        "superior": "18 CP"
+      }
+    },
+    {
+      "name": "Gloves, Socks or Underwear",
+      "cost": {
+        "cheap": "5 CP",
+        "reasonable": "10 CP",
+        "superior": "20 CP"
+      }
+    },
+    {
+      "name": "Coat or Cloak",
+      "cost": {
+        "cheap": "20 CP",
+        "reasonable": "45 CP",
+        "superior": "90 CP"
+      },
+      "notes": "general"
+    },
+    {
+      "name": "Vest or Tabard",
+      "cost": {
+        "cheap": "10 CP",
+        "reasonable": "20 CP",
+        "superior": "50 CP"
+      }
+    },
+    {
+      "name": "Tunic or Dress",
+      "cost": {
+        "cheap": "15 CP",
+        "reasonable": "30 CP",
+        "superior": "75 CP"
+      }
+    },
+    {
+      "name": "Sandals",
+      "cost": {
+        "cheap": "4 CP",
+        "reasonable": "8 CP",
+        "superior": "20 CP"
+      }
+    },
+    {
+      "name": "Shoes",
+      "cost": {
+        "cheap": "20 CP",
+        "reasonable": "45 CP",
+        "superior": "90 CP"
+      }
+    },
+    {
+      "name": "Trousers, Skirt or Kilt",
+      "cost": {
+        "cheap": "12 CP",
+        "reasonable": "25 CP",
+        "superior": "60 CP"
+      }
+    },
+    {
+      "name": "Shirt, Smock or Shift",
+      "cost": {
+        "cheap": "8 CP",
+        "reasonable": "16 CP",
+        "superior": "35 CP"
+      }
+    },
+    {
+      "name": "Winter Coat or Cloak",
+      "cost": {
+        "cheap": "30 CP",
+        "reasonable": "75 CP",
+        "superior": "150 CP"
+      }
+    }
+  ],
+  "Food & Drink": [
+    {
+      "name": "Meal (at tavern, per meal)",
+      "cost": {
+        "cheap": "1 SP",
+        "reasonable": "3 SP",
+        "superior": "8 SP"
+      }
+    },
+    {
+      "name": "Ale or Beer (evening of drinks)",
+      "cost": {
+        "cheap": "1 SP",
+        "reasonable": "1.5 SP",
+        "superior": "3 SP"
+      }
+    },
+    {
+      "name": "Wine or Spirits (evening)",
+      "cost": {
+        "cheap": "2 SP",
+        "reasonable": "4 SP",
+        "superior": "6 SP"
+      }
+    },
+    {
+      "name": "Trail rations (7 days)",
+      "cost": {
+        "cheap": "7 SP",
+        "reasonable": "9 SP",
+        "superior": "12 SP"
+      }
+    }
+  ],
+  "Livestock": [
+    {
+      "name": "Donkey or Mule",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Horse (riding)",
+      "cost": "250 SP"
+    },
+    {
+      "name": "Horse (war)",
+      "cost": "1000 SP"
+    },
+    {
+      "name": "Camel",
+      "cost": "300 SP"
+    },
+    {
+      "name": "Ox",
+      "cost": "150 SP"
+    },
+    {
+      "name": "Cow",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Pig",
+      "cost": "20 SP"
+    },
+    {
+      "name": "Goat or Sheep",
+      "cost": "10 SP"
+    },
+    {
+      "name": "Dog (guard)",
+      "cost": "30 SP"
+    },
+    {
+      "name": "Elephant (trained)",
+      "cost": "5000 SP"
+    }
+  ],
+  "Vehicles": [
+    {
+      "name": "Cart (2-wheeled)",
+      "cost": "100 SP"
+    },
+    {
+      "name": "Wagon (4-wheeled)",
+      "cost": "250 SP"
+    },
+    {
+      "name": "Carriage (coach)",
+      "cost": "500 SP"
+    },
+    {
+      "name": "Chariot (war)",
+      "cost": "300 SP"
+    },
+    {
+      "name": "Rowboat (small boat)",
+      "cost": "200 SP"
+    }
+  ]
+}
